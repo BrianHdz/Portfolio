@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    border: 0;
 }
 
 .wrapper {
@@ -9,6 +10,11 @@ html, body {
     width: 960px;
     margin: auto;
     position: relative;
+    background: #ffffff;
+}
+
+.container {
+    margin-top: 20%;
 }
 
 h1 {
@@ -16,18 +22,30 @@ h1 {
     color: #ffffff;
     padding: 40px;
     width: 286px;
-    top: 0px;
+    top: -1px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: fixed;
+    z-index: 2;
 }
 
 ul {
     list-style-type: none;
     color: #cccccc;
-    top: 0px;
-    right: 0px;
-    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 118px;
+    position: fixed;
     font-size: 18px;
-    font-style: bullshitSoFrustrated;
+    border: 2px solid #4aaaa5;
+    background: #ffffff;
+    z-index: 1;
+    font-style: bullsgitSoFrustrated;
+}
+
+li {
+    float: right;
+    text-align: center;
 }
 
 a {
@@ -48,12 +66,15 @@ p {
     padding: 20px;
 }
 
-#moreBio{
+.bioWords {
+    display: block;
 }
 
 .footer {
     height: 50px;
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    bottom: 12%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
 }
