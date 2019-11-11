@@ -1,4 +1,11 @@
-.mainContent {
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: calc(100vh - 70px);
+    margin-bottom: -50px;
     width: 960px;
     margin: auto;
     position: relative;
@@ -20,7 +27,7 @@ ul {
     right: 0px;
     position: absolute;
     font-size: 18px;
-    font-style: bullshit;
+    font-style: bullshitSoFrustrated;
 }
 
 a {
@@ -45,5 +52,8 @@ p {
 }
 
 .footer {
+    height: 50px;
     background: #666666;
+    border-top: 8px solid #4aaaa5;
+    bottom: 12%;
 }
