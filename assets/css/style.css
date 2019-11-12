@@ -1,26 +1,27 @@
 html, body {
-    height: 100%;
+    height: 90%;
     margin: 0;
     border: 0;
 }
 
 .wrapper {
-    min-height: calc(100vh - 70px);
-    margin-bottom: -50px;
+    min-height: calc(100vh -190px);
     width: 960px;
+    margin-bottom: 20px;
     margin: auto;
-    position: relative;
-    background: #ffffff;
 }
 
 .container {
-    margin-top: 20%;
+    margin-top: 14%;
+    margin-bottom: 29px;
+    position: relative;
+    background: #ffffff;
 }
 
 h1 {
     background: #cccccc;
     color: #ffffff;
-    padding: 40px;
+    padding: 25px;
     width: 286px;
     top: -1px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -40,6 +41,7 @@ ul {
     padding: 0;
     overflow: hidden;
     color: #cccccc;
+    background: #ffffff;
     top: 18px;
     left: 0;
     width: 99.78%;
@@ -58,52 +60,40 @@ li a {
     display: block;
     color: #cccccc;
     text-align: center;
-    padding: 49px;
+    padding: 33.5px;
     text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 li a:hover {
-    background: #ffffff;
-}
-
-#about {
-    color: red;
-}
-
-#portfolio {
-    color: yellow;
-}
-
-#contact {
-    color: blue;
-}
-
-a {
-    color: #cccccc;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #666666;
+    height: 98%;
 }
 
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 32px;
+    margin: 0;
 }
-
-#banner {}
 
 .bioPic {
     float: left;
     padding: 20px;
     margin-top: 60px;
+    margin-bottom: 25px;
 }
 
-#firstBio {
-    margin-top: 0px;
-    float: right;
+#firstBio {    
+    right: 0px;
+    padding: 70px;
+    width: 750px;
 }
 
 #moreBio {
-    clear: both;
+    text-align: justify;
+    width: 900px;
+
 }
 
 .footer {
