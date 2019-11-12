@@ -16,6 +16,7 @@ html, body {
     margin-bottom: 29px;
     position: relative;
     background: #ffffff;
+    border: 0px;
 }
 
 h1 {
@@ -31,8 +32,9 @@ h1 {
 
 h2 {
     color: #cccccc;
-    position: absolute;
+    position: relative;
     left: 20px;
+    top: 15px;
 }
 
 ul {
@@ -80,13 +82,13 @@ p {
 .bioPic {
     float: left;
     padding: 20px;
-    margin-top: 60px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #firstBio {    
     right: 0px;
-    padding: 70px;
+    padding: 30px;
     width: 750px;
 }
 
