@@ -56,7 +56,12 @@ ul {
 
 li {
     float: right;
+    border-right: 1px solid #777777;
 }
+
+li:first-child {
+    border: 0;
+} 
 
 li a {
     display: block;
@@ -100,9 +105,12 @@ p {
 
 .footer {
     height: 50px;
+    width: 100%;
     background: #666666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
     color: #ffffff;
     font-size: 12px;
+    position: absolute;
+    bottom: 0px;
 }
