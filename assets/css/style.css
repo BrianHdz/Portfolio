@@ -11,23 +11,65 @@ html, body {
     margin: auto;
 }
 
+.outerHeader {
+    height: 80px;
+    background-color: white;
+}
+
+hr {
+    margin: 19px;
+    border-color: #ffffff;
+}
+
+.innerHeader {
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+    border: solid 1px white;
+}
+
+#logo {
+    float: left;
+    color: #cccccc;
+    background: #ffffff;
+    padding: 21px;
+    margin: 0;
+    background-color: #666666;
+    border-color:    
+}
+
+.navLinks {
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+li {
+    float: right;
+    list-style: none;
+    padding: 0 10px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    text-decoration: none;
+    line-height: 5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+li a {
+    color: #cccccc;
+    text-decoration: none;  
+}
+
+li:first-child {
+    border: 0;
+} 
+
 .container {
-    margin-top: 14%;
+    margin-top: 4%;
     margin-bottom: 29px;
     position: relative;
     background: #ffffff;
     border: 0px;
-}
-
-h1 {
-    background: #cccccc;
-    color: #ffffff;
-    padding: 25px;
-    width: 286px;
-    top: -1px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    position: fixed;
-    z-index: 2;
 }
 
 h2 {
@@ -37,51 +79,14 @@ h2 {
     top: 15px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    color: #cccccc;
-    background: #ffffff;
-    top: 18px;
-    left: 0;
-    width: 99.78%;
-    position: fixed;
-    font-size: 18px;
-    border: 2px solid #4aaaa5;
-    z-index: 1;
-    font-style: bullsgitSoFrustrated;
-}
 
-li {
-    float: right;
-    border-right: 1px solid #777777;
-}
-
-li:first-child {
-    border: 0;
-} 
-
-li a {
-    display: block;
-    color: #cccccc;
-    text-align: center;
-    padding: 33.5px;
-    text-decoration: none;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-li a:hover {
-    background: #666666;
-    height: 98%;
-}
 
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 32px;
-    margin: 0;
+    margin: auto;
+    padding: 20px;
 }
 
 .bioPic {
@@ -106,11 +111,12 @@ p {
 .footer {
     height: 50px;
     width: 100%;
-    background: #666666;
+    margin-top: 110px;
     border-top: 8px solid #4aaaa5;
     text-align: center;
+    position: relative;
+    bottom: 0px;
+    background: #666666;
     color: #ffffff;
     font-size: 12px;
-    position: absolute;
-    bottom: 0px;
 }
