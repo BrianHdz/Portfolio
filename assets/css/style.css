@@ -108,13 +108,78 @@ p {
 
 }
 
+.row {}
+
+#col {}
+
+#hangman {
+    padding: 20px;
+        
+}
+
+#rpg {
+    padding: 20px;
+    
+}
+
+#trivia {
+    padding: 20px;
+}
+
+#info {
+    padding: 20px;
+}
+
+#rps {
+    padding: 20px;
+}
+
+#hangmanText {
+    position: absolute;
+    border: 1px black solid;
+    padding-left: 10px; 
+    padding-right: 10px;
+    float: left;         
+}
+
+#rpgText {
+    position: absolute;
+    border: 1px black solid;
+    padding-left: 10px; 
+    padding-right: 10px;    
+}
+
+#triviaText {
+    position: absolute;
+    border: 1px black solid;
+    padding-left: 10px; 
+    padding-right: 10px;
+    float: left;
+}
+
+#infoText {
+    position: absolute;
+    border: 1px black solid;
+    padding-left: 10px; 
+    padding-right: 10px;
+    float: left;
+}
+
+#rpsText {
+    position: absolute;
+    border: 1px black solid;
+    padding-left: 10px; 
+    padding-right: 10px;
+    float: left;
+}
+
 .footer {
     height: 50px;
     width: 100%;
     margin-top: 110px;
     border-top: 8px solid #4aaaa5;
     text-align: center;
-    position: relative;
+    position: absolute;
     bottom: 0px;
     background: #666666;
     color: #ffffff;
